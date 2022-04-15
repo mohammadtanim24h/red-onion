@@ -1,0 +1,127 @@
+[
+    {
+      "id": "1",
+      "name": "Healthy Meal Plan",
+      "price": 420,
+      "category": "lunch",
+      "img": "https://i.ibb.co/Wp1ZKpq/lunch6.png"
+    },
+    {
+      "id": "2",
+      "name": "Fried Chicken Bento",
+      "price": 196,
+      "category": "lunch",
+      "img": "https://i.ibb.co/RSTZntT/lunch5.png"
+    },
+    {
+      "id": "3",
+      "name": "Terragon-Rubbed-Salmon",
+      "price": 245,
+      "category": "lunch",
+      "img": "https://i.ibb.co/SdSMQPz/lunch3.png"
+    },
+    {
+      "id": "4",
+      "name": "Indian Lunch",
+      "price": 329,
+      "category": "lunch",
+      "img": "https://i.ibb.co/yfYvpR1/lunch4.png"
+    },
+    {
+      "id": "5",
+      "name": "Beef Steak",
+      "price": 287,
+      "category": "lunch",
+      "img": "https://i.ibb.co/fS1VgV1/lunch1.png"
+    },
+    {
+      "id": "6",
+      "name": "Salmon with Peppers",
+      "price": 530,
+      "category": "lunch",
+      "img": "https://i.ibb.co/Ct8Rqfv/lunch2.png"
+    },
+    {
+      "id": "7",
+      "name": "Chicken and Waffles",
+      "price": 426,
+      "img": "https://i.ibb.co/b75NM6c/breakfast1.png"
+    },
+    {
+      "id": "8",
+      "name": "Avocado Toast",
+      "price": 119,
+      "category": "breakfast",
+      "img": "https://i.ibb.co/j9NTX1X/breakfast2.png"
+    },
+    {
+      "id": "9",
+      "name": "Home Fries",
+      "price": 260,
+      "category": "breakfast",
+      "img": "https://i.ibb.co/WvrCJwv/breakfast3.png"
+    },
+    {
+      "id": "10",
+      "name": "Sausage",
+      "price": 437,
+      "category": "breakfast",
+      "img": "https://i.ibb.co/42gpF3F/breakfast4.png"
+    },
+    {
+      "id": "11",
+      "name": "Ven Pongal",
+      "price": 146,
+      "category": "breakfast",
+      "img": "https://i.ibb.co/T8T0mxd/breakfast5.png"
+    },
+    {
+      "id": "12",
+      "name": "Breakfast Wrap",
+      "price": 109,
+      "category": "breakfast",
+      "img": "https://i.ibb.co/KzVw57f/breakfast6.png"
+    },
+    {
+      "id": "13",
+      "name": "Huevos rancheros",
+      "price": 237,
+      "category": "dinner",
+      "img": "https://i.ibb.co/DQsgZjQ/dinner1.png"
+    },
+    {
+      "id": "14",
+      "name": "Fajitas",
+      "price": 446,
+      "category": "dinner",
+      "img": "https://i.ibb.co/q7536qR/dinner2.png"
+    },
+    {
+      "id": "15",
+      "name": "Meatballs and rice",
+      "price": 409,
+      "category": "dinner",
+      "img": "https://i.ibb.co/PYJ0dHC/dinner3.png"
+    },
+    {
+      "id": "16",
+      "name": "Stir fry",
+      "price": 437,
+      "category": "dinner",
+      "img": "https://i.ibb.co/JkkCHXQ/dinner4.png"
+    },
+    {
+      "id": "17",
+      "name": "Fried onions with chicken",
+      "price": 346,
+      "category": "dinner",
+      "img": "https://i.ibb.co/HNm1KSS/dinner5.png"
+    },
+    {
+      "id": "18",
+      "name": "Maple-Dijon Panko Salmon",
+      "price": 209,
+      "category": "dinner",
+      "img": "https://i.ibb.co/SVj5jMs/dinner6.png"
+    }
+]

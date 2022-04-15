@@ -42,16 +42,17 @@
     color: #f83f64;
 }
 
-
-
 @media screen and (max-width: 480px) {
     .banner-text {
-        margin-left: 20px;
+        margin: 20px auto;
         color: #fff;
     }
     .banner {
         background-color: rgba(0, 0, 0, .5);
         background-blend-mode: overlay;
+    }
+    .search-area {
+        margin: 0 auto;
     }
 }
 

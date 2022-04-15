@@ -1,0 +1,19 @@
+.category-links {
+    margin: 40px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.category-links a{
+    margin-right: 20px;
+    font-size: 18px;
+    font-weight: 500;
+    text-decoration: none;
+    color: rgb(19, 17, 17);
+    transition: .2s;
+}
+
+.category-links a:hover {
+    color: #F91944;
+}

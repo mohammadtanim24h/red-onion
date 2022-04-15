@@ -10,20 +10,20 @@ const Header = () => {
         <div className="header">
             <Navbar collapseOnSelect expand="lg" bg="light">
                 <Container>
-                    <Navbar.Brand href="#home" className="logo-div">
+                    <Navbar.Brand as={Link} to="/" className="logo-div">
                         <img className="img-fluid" src={logo} alt="" />
                     </Navbar.Brand>
                     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                     <Navbar.Collapse id="responsive-navbar-nav">
                         <Nav className="ms-auto">
-                            <Nav.Link href="#home">Home</Nav.Link>
-                            <Nav.Link href="#cart">
+                            <Nav.Link as={Link} to="/home">Home</Nav.Link>
+                            <Nav.Link as={Link} to="/cart">
                                 <FiShoppingCart />
                             </Nav.Link>
                         </Nav>
                         <Nav>
-                            <Nav.Link href="#login">Login</Nav.Link>
-                            <Nav.Link className="signup-btn" href="#signup">Sign up</Nav.Link>
+                            <Nav.Link as={Link} to="/login">Login</Nav.Link>
+                            <Nav.Link className="signup-btn" as={Link} to="#signup">Sign up</Nav.Link>
                         </Nav>
                     </Navbar.Collapse>
                 </Container>
