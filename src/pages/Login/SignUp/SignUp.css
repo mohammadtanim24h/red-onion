@@ -1,0 +1,37 @@
+.sign-in-up {
+    background-image: url('../../../images/signup-bg.png');
+    height: calc(100vh - 60px);
+    background-position: center;
+    background-size: cover;
+}
+
+.sign-in-up img{
+    width: 290px;
+    height: auto;
+    margin-bottom: 50px;
+}
+
+.custom-form {
+    width: 400px;
+}
+
+.custom-form input{
+    display: block;
+    width: 100%;
+    margin-bottom: 20px;
+    border: 0;
+    outline: 0;
+    background-color: #F5F5F5;
+    padding: 15px 20px;
+    border-radius: 6px;
+}
+
+.submit-btn {
+    border: 0;
+    outline: 0;
+    padding: 15px 20px;
+    border-radius: 6px;
+    width: 100%;
+    background-color: #F91944;
+    color: white;
+}

@@ -1,0 +1,9 @@
+.theme-text {
+    color: #F91944;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.theme-text:hover {
+    color: #F91944;
+}
