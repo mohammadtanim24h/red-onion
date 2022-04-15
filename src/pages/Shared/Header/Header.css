@@ -1,0 +1,18 @@
+.header {
+    height: 60px;
+}
+
+.header a {
+    margin-right: 10px;
+}
+
+.logo-div img {
+    height: 35px;
+}
+
+.signup-btn {
+    background-color: #F91944;
+    padding: 7px 25px !important;
+    border-radius: 25px;
+    color: #fff !important;
+}

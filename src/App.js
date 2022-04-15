@@ -1,11 +1,11 @@
 import "./App.css";
 import 'bootstrap/dist/css/bootstrap.min.css';
+import Header from "./pages/Shared/Header/Header";
 
 function App() {
     return (
         <div>
-            <p>App js</p>
-            <h2>This is open sans</h2>
+            <Header></Header>
         </div>
     );
 }
