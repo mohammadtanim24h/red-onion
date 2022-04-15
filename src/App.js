@@ -5,6 +5,7 @@ function App() {
     return (
         <div>
             <p>App js</p>
+            <h2>This is open sans</h2>
         </div>
     );
 }
