@@ -8,7 +8,7 @@ import { FiShoppingCart } from "react-icons/fi";
 const Header = () => {
     return (
         <div className="header">
-            <Navbar collapseOnSelect expand="lg">
+            <Navbar collapseOnSelect expand="lg" bg="light">
                 <Container>
                     <Navbar.Brand href="#home" className="logo-div">
                         <img className="img-fluid" src={logo} alt="" />
