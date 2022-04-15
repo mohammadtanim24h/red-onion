@@ -45,6 +45,7 @@
       "id": "7",
       "name": "Chicken and Waffles",
       "price": 426,
+      "category": "breakfast",
       "img": "https://i.ibb.co/b75NM6c/breakfast1.png"
     },
     {
