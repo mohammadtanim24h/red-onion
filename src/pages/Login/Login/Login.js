@@ -2,12 +2,13 @@ import React from 'react';
 import './Login.css';
 import logo from '../../../images/logo2.png';
 import { Link } from 'react-router-dom';
+import SocialLogin from '../SocialLogin/SocialLogin';
 
 const Login = () => {
     return (
         <div className="d-flex justify-content-center mt-5 sign-in-up">
             <div>
-                <img src={logo} alt="logo" />
+                <img className='logo' src={logo} alt="logo" />
                 <form className="custom-form">
                     <input type="email" placeholder="Email" />
                     <input type="password" placeholder="Password" />
@@ -15,6 +16,7 @@ const Login = () => {
                     <button type="submit" className="submit-btn">Sign Up</button>
                     <p className='mt-3 mb-2 ms-1'>Don't have an account? <Link to='/signup' className='theme-text'>Sign Up</Link></p>
                 </form>
+                <SocialLogin></SocialLogin>
             </div>
         </div>
     );

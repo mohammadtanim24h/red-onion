@@ -1,4 +1,5 @@
 import React from "react";
+import { Outlet } from "react-router-dom";
 import Categories from "../Categories/Categories";
 import "./Home.css";
 
@@ -22,6 +23,7 @@ const Home = () => {
                 </div>
             </div>
             <Categories></Categories>
+            <Outlet></Outlet>
         </div>
     );
 };
