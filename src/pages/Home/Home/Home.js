@@ -4,6 +4,7 @@ import Categories from "../Categories/Categories";
 import "./Home.css";
 
 const Home = () => {
+    console.log('tset');
     return (
         <div>
             <div className="banner">
@@ -23,7 +24,7 @@ const Home = () => {
                 </div>
             </div>
             <Categories></Categories>
-            <div className="container">
+            <div style={{minHeight: '90vh'}} className="container"> {/*eikhane height deya hoise jate food load houar shomoy layout break na kore. minHeight use kora hoise jate minimum 90vh jayga ney. beshi jaygar dorkar porle barbe. height fixed thakle beshi food ashle problem hoito*/}
                 <Outlet></Outlet>
             </div>
         </div>
