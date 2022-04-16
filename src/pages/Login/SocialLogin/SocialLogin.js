@@ -15,13 +15,13 @@ const SocialLogin = () => {
     const [signInWithGoogle, user, loading, error] = useSignInWithGoogle(auth);
     const [signInWithGithub, gitUser, gitLoading, gitError] =
         useSignInWithGithub(auth);
-        console.log(user);
+    console.log(gitUser);
     const navigate = useNavigate();
     useEffect(() => {
-        if (user) {
-            navigate('/')
+        if (user || gitUser) {
+            navigate("/");
         }
-    }, [user]);
+    }, [user, gitUser]);
     return (
         <div className="my-3">
             <div className="d-flex justify-content-center align-items-center">
