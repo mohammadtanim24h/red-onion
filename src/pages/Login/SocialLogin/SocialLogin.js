@@ -13,9 +13,8 @@ import { useNavigate } from "react-router-dom";
 
 const SocialLogin = () => {
     const [signInWithGoogle, user, loading, error] = useSignInWithGoogle(auth);
-    const [signInWithGithub, gitUser, gitLoading, gitError] =
+    const [signInWithGithub, gitUser] =
         useSignInWithGithub(auth);
-    console.log(gitUser);
     const navigate = useNavigate();
     useEffect(() => {
         if (user || gitUser) {
