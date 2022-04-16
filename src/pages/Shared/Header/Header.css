@@ -16,3 +16,32 @@
     border-radius: 25px;
     color: #fff !important;
 }
+
+.sign-out-btn {
+    outline: 0;
+    border: 1px solid #F91944;
+    padding: 10px 20px;
+    background-color: #F91944;
+    color: #fff;
+    border-radius: 25px;
+    transition: .3s;
+}
+
+.sign-out-btn:hover {
+    background-color: transparent;
+    color: #F91944;
+}
+
+.username {
+    color: #F91944;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 0;
+}
+
+
+@media screen and (max-width: 480px) {
+    .username {
+        display: none;
+    }
+}

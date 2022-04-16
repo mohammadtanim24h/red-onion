@@ -4,9 +4,13 @@ import google from "../../../images/social/icons8-google.png";
 import facebook from "../../../images/social/icons8-facebook.png";
 import twitter from "../../../images/social/icons8-twitter.png";
 import github from "../../../images/social/icons8-github.png";
+import auth from '../../../firebase.init';
+import { useSignInWithGithub, useSignInWithGoogle } from 'react-firebase-hooks/auth';
 
 
 const SocialLogin = () => {
+    const [signInWithGoogle, user, loading, error] = useSignInWithGoogle(auth);
+    const [signInWithGithub, gitUser, gitLoading, gitError] = useSignInWithGithub(auth);
     return (
         <div className="my-3">
             <div className="d-flex justify-content-center align-items-center">
@@ -15,9 +19,9 @@ const SocialLogin = () => {
                 <div className="or-div"></div>
             </div>
             <div className="d-flex justify-content-center mt-3">
-                <img style={{cursor: 'pointer'}} className="img-fluid me-3" src={google} alt="" />
+                <img onClick={() => signInWithGoogle()} style={{cursor: 'pointer'}} className="img-fluid me-3" src={google} alt="" />
                 <img style={{cursor: 'pointer'}} className="img-fluid me-3" src={facebook} alt="" />
-                <img style={{cursor: 'pointer'}} className="img-fluid me-3" src={github} alt="" />
+                <img onClick={() => signInWithGithub()} style={{cursor: 'pointer'}} className="img-fluid me-3" src={github} alt="" />
                 <img style={{cursor: 'pointer'}} className="img-fluid" src={twitter} alt="" />
             </div>
         </div>

@@ -23,7 +23,9 @@ const Home = () => {
                 </div>
             </div>
             <Categories></Categories>
-            <Outlet></Outlet>
+            <div className="container">
+                <Outlet></Outlet>
+            </div>
         </div>
     );
 };
