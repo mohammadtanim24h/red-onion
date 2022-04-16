@@ -4,7 +4,6 @@ import Categories from "../Categories/Categories";
 import "./Home.css";
 
 const Home = () => {
-    console.log('tset');
     return (
         <div>
             <div className="banner">

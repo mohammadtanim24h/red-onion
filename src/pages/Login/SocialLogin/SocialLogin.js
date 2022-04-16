@@ -15,6 +15,7 @@ const SocialLogin = () => {
     const [signInWithGoogle, user, loading, error] = useSignInWithGoogle(auth);
     const [signInWithGithub, gitUser, gitLoading, gitError] =
         useSignInWithGithub(auth);
+        console.log(user);
     const navigate = useNavigate();
     useEffect(() => {
         if (user) {
